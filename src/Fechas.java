@@ -24,17 +24,17 @@ public class Fechas {
 
         // Comparar las fechas
         if (anio1 > anio2) {
-            System.out.println("La persona 1 es mayor.");
+            System.out.println("La persona 2 es mayor.");
         } else if (anio1 < anio2) {
-            System.out.println("La persona 2 es mayor.");
+            System.out.println("La persona 1 es mayor.");
         } else if (mes1 > mes2) {
-            System.out.println("La persona 1 es mayor.");
+            System.out.println("La persona 2 es mayor.");
         } else if (mes1 < mes2) {
-            System.out.println("La persona 2 es mayor.");
-        } else if (dia1 > dia2) {
             System.out.println("La persona 1 es mayor.");
-        } else if (dia1 < dia2) {
+        } else if (dia1 > dia2) {
             System.out.println("La persona 2 es mayor.");
+        } else if (dia1 < dia2) {
+            System.out.println("La persona 110/01/2000 es mayor.");
         } else {
             System.out.println("Tienen la misma edad.");
         }
